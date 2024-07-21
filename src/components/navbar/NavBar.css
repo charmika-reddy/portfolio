@@ -1,0 +1,103 @@
+.navbar{
+    background: rgb(30,30,30);
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 75 rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+h1{
+    color:yellow;
+}
+
+.desktopMenuList{
+    margin: 1rem;
+    cursor: pointer;
+}
+.desktopMenuList:hover{
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 3px solid yellow;
+}
+
+.desktopmenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.destopmenuBtn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    
+    border-radius: 2rem;
+    font-size: medium;
+
+}
+.iconContact{
+    padding-right: 0.4rem;
+    height: 0.9rem;
+    width: 20px;
+}
+
+
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
+}
+.iconMenu{
+    display:none;
+    object-fit: cover;
+    height: 1rem;
+}
+
+.navMenu{
+    position: absolute;
+    top:4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40,40,40);
+    border-radius: 1rem;
+}
+.MenuList{
+    color: yellow;
+    padding: 0.5rem 3rem ;
+    margin:0.25rem ;
+    background: rgb(30,30,30);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:720px){
+    .iconMenu{
+        display:flex;
+        font-size: 40px;
+        padding-bottom: 2rem;
+    }
+    .desktopmenu{
+        display: none;
+    }
+    .desktopMenuList{
+        display: none;
+    }
+}

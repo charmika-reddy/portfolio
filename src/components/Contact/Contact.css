@@ -1,0 +1,108 @@
+#contactPage{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: yellow;
+
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+}
+
+.name , .email {
+    font-size: medium;
+    width: 100;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: 2px solid grey;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+    display: flex;
+
+}
+.msg{
+    font-size: medium;
+    width: 100;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.iconWhat{
+    padding-right: 4rem;
+    width: 20px;
+    font-size: 40px;
+}
+.iconTwitter{
+    padding-right: 4rem;
+    width: 20px;
+    font-size: 40px;
+}
+.iconLinkedIn{
+    padding-right: 4rem;
+    width: 20px;
+    font-size: 40px;
+}
+.iconFace{
+    padding-right: 4rem;
+    width: 20px;
+    font-size: 40px;
+}
+.iconInst{
+    padding-right:4rem;
+    width: 20px;
+    font-size: 40px;
+}
+.iconGit{
+    padding-right: 4rem;
+    width: 20px;
+    font-size: 40px;
+}

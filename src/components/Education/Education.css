@@ -1,0 +1,45 @@
+#education{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: centre;
+    margin: 0 auto;
+}
+.Title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom:1.5rem ;
+    color: yellow;
+}
+.tenth{
+    display: flex;
+    margin: 2rem;
+    
+    height: 80px;
+    
+    border-radius: 10px;
+}
+.text{
+    font-size: 1.5rem; 
+}
+.inter{
+    display: flex;
+    margin: 2rem;
+    
+    height: 80px;
+    
+    border-radius: 10px;
+}
+.b-tech{
+    display: flex;
+    margin: 2rem;
+    
+    height: 80px;
+    
+    border-radius: 10px;
+}
